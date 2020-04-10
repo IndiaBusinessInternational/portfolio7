@@ -1,0 +1,124 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+/* media queries reference w3schools */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background: aqua;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background: yellow;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background: pink;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background: cyan;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background: red;
+  }
+
+}
+
+/* end of media queries reference w3schools*/
+
+/* copy starts */
+/* contact */
+#contact {
+  padding: 40px;
+  background-color: whitesmoke;
+}
+
+#contact .form-control {
+  border-radius: 0;
+  font-size: 20px;
+}
+
+#contact button {
+  background-color: #353531;
+  font-size: 24px;
+  color: #F15025;
+  margin-bottom: 20px;
+}
+
+#contact button:hover {
+  background-color: #CED0CE;
+}
+
+/* end of contact */
+
+/* footer */
+#footer {
+  padding: 40px;
+  color: whitesmoke;
+  background-color: #353531;
+}
+
+#footer h2 {
+  margin-bottom: 20px;
+}
+
+#footer p {
+  font-size: 20px;
+}
+
+#footer .websites a {
+  text-decoration: none!important;
+  color: #F15025;
+  font-size: 20px;
+}
+
+#footer .websites a:hover {
+  color: #CED0CE;
+}
+
+#footer hr {
+  background-color: whitesmoke;
+}
+
+.lower-row {
+  margin-top: 40px;
+}
+
+#footer .footer-icons {
+  font-size: 20px;
+}
+
+#footer .footer-icons a {
+  color: #909090;
+  text-decoration: none;
+}
+
+#footer .footer-icons a:hover {
+  color: whitesmoke;
+}
+
+#footer .copyrights h3 {
+  color: #CED0CE;
+
+}
+/* end of footer */
+
+/* copy ends */
